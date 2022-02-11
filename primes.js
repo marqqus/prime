@@ -8,7 +8,7 @@ const calcPrimes = () => {
 	let primes = [1, 2];
 	let number = 2;
 	let i = 1;
-	while (number < max) {
+	while (number <= max) {
 		while (number % primes[i] !== 0 && i < primes.length) {
 		i++;
 		}
