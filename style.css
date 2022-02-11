@@ -1,4 +1,19 @@
+/* HTML tags styles: */
+
 body {
-    background: black;
-    color: white;
+    background: rgb(36, 35, 35);
+    color: rgb(209, 209, 209);
+    font-family: Arial;
+}
+p {
+    text-align: center;
+}
+
+/* ID styles: */
+
+#button {
+    text-align:center;
+}
+#primes {
+    text-align: justify;
 }

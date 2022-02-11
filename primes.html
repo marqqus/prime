@@ -1,13 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>Prime numbers generator</title>
 		<script src="primes.js"></script>
 		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<p>Welcome to the prime numbers generator! Click below to start generating prime numbers!</p>
-		<input type="button" name="newTask" value="Generate prime numbers" onclick="showPrimes()">
-		<br><br>
+		<div id="button">  
+			<input type="button" name="newTask" value="Generate prime numbers" onclick="showPrimes()">
+		</div>  
+		<br>
 		<div id="primes"></div>
 	</body>
 </html>
